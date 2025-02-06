@@ -12,9 +12,9 @@ const logsnag = new LogSnag({
 const track = async () => {
   await logsnag.track({
     channel: "yes",
-    event: "Valentine's Day",
-    description: "She said yes!",
-    icon: "💖",
+    event: "Movie",
+    description: "She said yes to the movie!",
+    icon: "🎬",
     notify: true,
   });
 };
@@ -22,36 +22,34 @@ const track = async () => {
 function App() {
   const steps = [
     {
-      content: "Heyyyyy, pretty girl.",
+      content: "Heyyyy, I have a thought...",
       image: "/character/one.png",
     },
     {
-      content: `Recently, we met.
-      And somehow, you've been on my mind ever since.
-      `,
+      content: `Lately, something keeps replaying in my mind…`,
       image: "/character/two.png",
     },
     {
-      content: `Then we went on our first date…And I realized—yep, I want this girl. For life.
-      `,
+      content: `It’s like a scene from a movie—  
+      unexpected, yet unforgettable.`,
       image: "/character/three.png",
     },
     {
-      content: `You're beautiful, you're smart, you're fun,
-and you make spending time together feel too short.`,
+      content: `You know, some movies aren’t just watched…  
+      They are felt.`,
       image: "/character/four.png",
     },
     {
-      content: `I look forward to when I'll see you again,
-hold your hands, and look into your pretty eyes.`,
+      content: `Some stories leave a mark—  
+      just like someone I met recently.`,
       image: "/character/five.png",
     },
     {
-      content: "So now I've got a question for you…",
+      content: `So, I was wondering…`,
       image: "/character/six.png",
     },
     {
-      content: "Will you be my Valentine?",
+      content: `Would you like to watch *...any movie* with me?`,
       image: "/character/seven.png",
     },
   ];
